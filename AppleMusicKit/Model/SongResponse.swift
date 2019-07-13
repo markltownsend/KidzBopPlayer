@@ -17,10 +17,16 @@ public struct Song: Decodable {
     var attributes: SongAttributes
 }
 
-public struct SongAttributes:Decodable {
+public struct SongAttributes: Decodable {
     var name: String?
     var url: URL?
     var artistName: String?
     var artwork: Artwork?
     var album: String?
+    var playParams: PlayParams
+}
+
+public struct PlayParams: Decodable {
+    var id: String
+    var kind: String
 }
