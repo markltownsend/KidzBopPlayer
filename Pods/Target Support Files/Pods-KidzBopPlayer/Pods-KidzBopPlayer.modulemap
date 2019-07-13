@@ -1,4 +1,4 @@
-framework module Pods_KidzBopPlayer {
+module Pods_KidzBopPlayer {
   umbrella header "Pods-KidzBopPlayer-umbrella.h"
 
   export *
