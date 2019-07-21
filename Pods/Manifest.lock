@@ -1,44 +1,20 @@
 PODS:
   - CupertinoJWT (0.2.0)
   - KeychainAccess (3.1.2)
-  - RxBlocking (5.0.0):
-    - RxSwift (~> 5)
-  - RxCocoa (5.0.0):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxRelay (5.0.0):
-    - RxSwift (~> 5)
-  - RxSwift (5.0.0)
-  - RxTest (5.0.0):
-    - RxSwift (~> 5)
 
 DEPENDENCIES:
   - CupertinoJWT
   - KeychainAccess
-  - RxBlocking (~> 5)
-  - RxCocoa (~> 5)
-  - RxSwift (~> 5)
-  - RxTest (~> 5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CupertinoJWT
     - KeychainAccess
-    - RxBlocking
-    - RxCocoa
-    - RxRelay
-    - RxSwift
-    - RxTest
 
 SPEC CHECKSUMS:
   CupertinoJWT: f712fdc2cc422aac8daa301ad1dce05ea9f6b6d6
   KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
-  RxBlocking: c67185d26498ea3cbe3e121917c3c16739e43123
-  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
-  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
-  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
-  RxTest: 4349afe98f564e0a9bc19063368904622d17d49a
 
-PODFILE CHECKSUM: abee6e90e31426179469712bea6015ee984cdd75
+PODFILE CHECKSUM: 9168b22ea1d573873e9d9d543538aca4fe01b254
 
 COCOAPODS: 1.7.0
