@@ -25,8 +25,33 @@ class AppleMusicKitTests: XCTestCase {
 
     func testSearch() {
         let doneExpectation = expectation(description: "searchDone")
-        api.search(term: "Kidz Bop") { (results) in
-            XCTAssertNotNil(results)
+        api.search(term: "Kidz Bop") { (result) in
+            switch result {
+            case .success(let response):
+                XCTAssertNotNil(response)
+            case .failure(let error):
+                print(error)
+            }
+            doneExpectation.fulfill()
+        }
+
+        waitForExpectations(timeout: 600) { (error) in
+            if let error = error {
+                print(error)
+            }
+        }
+    }
+
+    func testSearchWithSongType() {
+        let doneExpectation = expectation(description: "searchDone")
+        api.search(term: "Kidz Bop", types: [.songs]) { (result) in
+            switch result {
+            case .success(let response):
+                XCTAssertNotNil(response)
+            case.failure(let error):
+                print(error)
+            }
+
             doneExpectation.fulfill()
         }
 

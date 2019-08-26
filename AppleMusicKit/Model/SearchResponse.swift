@@ -10,7 +10,7 @@ import Foundation
 public struct SearchResponse: MKResponseRoot {
     public var data: [MKResource]?
     public var errors: [MKError]?
-    public var href: String?
-    public var next: String?
+    public var href: URL?
+    public var next: URL?
     var results:[SearchResults]?
 }

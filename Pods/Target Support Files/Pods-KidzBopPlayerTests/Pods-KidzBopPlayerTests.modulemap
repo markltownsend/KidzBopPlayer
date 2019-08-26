@@ -1,4 +1,4 @@
-framework module Pods_KidzBopPlayerTests {
+module Pods_KidzBopPlayerTests {
   umbrella header "Pods-KidzBopPlayerTests-umbrella.h"
 
   export *

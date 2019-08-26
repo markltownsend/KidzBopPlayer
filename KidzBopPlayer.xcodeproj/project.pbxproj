@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A2342535743700C749368C0 /* Pods_KidzBopPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1915DA01E6280E7833DD7D9 /* Pods_KidzBopPlayer.framework */; };
+		2BD3F03B6EEB46E31ED8A832 /* libPods-KidzBopPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02553859DCB3CFF30F43B4D6 /* libPods-KidzBopPlayerTests.a */; };
 		4D09246D1F46B905007FFA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09246C1F46B905007FFA2A /* AppDelegate.swift */; };
 		4D09246F1F46B905007FFA2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09246E1F46B905007FFA2A /* MainViewController.swift */; };
 		4D0924721F46B905007FFA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0924701F46B905007FFA2A /* Main.storyboard */; };
@@ -34,9 +34,9 @@
 		4DE422E822AB7EB5005E0847 /* AlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422E722AB7EB5005E0847 /* AlbumResponse.swift */; };
 		4DF45DF922ADE23D007B25E5 /* SongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF45DF822ADE23D007B25E5 /* SongResponse.swift */; };
 		4DF45DFB22AE1924007B25E5 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF45DFA22AE1924007B25E5 /* Artwork.swift */; };
-		4DFEFE109FB43890F54F23E6 /* Pods_AppleMusicKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA7A84740B5AC5C9A6FFDEC /* Pods_AppleMusicKitTests.framework */; };
-		AE7BB4C648CF82C642E69CE9 /* Pods_AppleMusicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BC5725E55209F012638B5B /* Pods_AppleMusicKit.framework */; };
-		BC714F7377D10B0DB42DE401 /* Pods_KidzBopPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A8F31BE6E180EA9856D4C /* Pods_KidzBopPlayerTests.framework */; };
+		5EF05776A96550458F9C6F1D /* libPods-KidzBopPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8C922C4287CEE8B168F273 /* libPods-KidzBopPlayer.a */; };
+		6864AAA7912B074AFC8F9967 /* libPods-AppleMusicKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE4A563E39A84081363FBF4 /* libPods-AppleMusicKit.a */; };
+		B250D11A2A920E4322E44B24 /* libPods-AppleMusicKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D96B984CB545CD7DE5EDD /* libPods-AppleMusicKitTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,9 +85,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02553859DCB3CFF30F43B4D6 /* libPods-KidzBopPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KidzBopPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9E0FBFB07FB4D25076591F /* Pods-KidzBopPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidzBopPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-KidzBopPlayerTests/Pods-KidzBopPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EE9FFED57D81DDCF56DCFD9 /* Pods-AppleMusicKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicKitTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2CA7A84740B5AC5C9A6FFDEC /* Pods_AppleMusicKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleMusicKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		432D96B984CB545CD7DE5EDD /* libPods-AppleMusicKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleMusicKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0924691F46B905007FFA2A /* KidzBopPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidzBopPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D09246C1F46B905007FFA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D09246E1F46B905007FFA2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -119,14 +120,13 @@
 		4DE422E722AB7EB5005E0847 /* AlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponse.swift; sourceTree = "<group>"; };
 		4DF45DF822ADE23D007B25E5 /* SongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResponse.swift; sourceTree = "<group>"; };
 		4DF45DFA22AE1924007B25E5 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
-		54BC5725E55209F012638B5B /* Pods_AppleMusicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleMusicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC9861B58F81216A01C4B7A /* Pods-KidzBopPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidzBopPlayer.debug.xcconfig"; path = "Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		733A8F31BE6E180EA9856D4C /* Pods_KidzBopPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidzBopPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		740C376733A999136BD15B3D /* Pods-AppleMusicKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicKit.release.xcconfig"; path = "Target Support Files/Pods-AppleMusicKit/Pods-AppleMusicKit.release.xcconfig"; sourceTree = "<group>"; };
 		9386771BBC4038D5D680AA56 /* Pods-AppleMusicKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicKitTests.release.xcconfig"; path = "Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		9B6FB5EE65E1E33FB3ACA56E /* Pods-KidzBopPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidzBopPlayer.release.xcconfig"; path = "Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		B0D75CF6AEA4B71AC3635468 /* Pods-AppleMusicKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicKit.debug.xcconfig"; path = "Target Support Files/Pods-AppleMusicKit/Pods-AppleMusicKit.debug.xcconfig"; sourceTree = "<group>"; };
-		E1915DA01E6280E7833DD7D9 /* Pods_KidzBopPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidzBopPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE4A563E39A84081363FBF4 /* libPods-AppleMusicKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleMusicKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8C922C4287CEE8B168F273 /* libPods-KidzBopPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KidzBopPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDC97D0D1FB0A13579023E1 /* Pods-KidzBopPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidzBopPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-KidzBopPlayerTests/Pods-KidzBopPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,7 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2C1C6F216A7B8A002C27ED /* AppleMusicKit.framework in Frameworks */,
-				4A2342535743700C749368C0 /* Pods_KidzBopPlayer.framework in Frameworks */,
+				5EF05776A96550458F9C6F1D /* libPods-KidzBopPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC714F7377D10B0DB42DE401 /* Pods_KidzBopPlayerTests.framework in Frameworks */,
+				2BD3F03B6EEB46E31ED8A832 /* libPods-KidzBopPlayerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7BB4C648CF82C642E69CE9 /* Pods_AppleMusicKit.framework in Frameworks */,
+				6864AAA7912B074AFC8F9967 /* libPods-AppleMusicKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2C1C63216A7B8A002C27ED /* AppleMusicKit.framework in Frameworks */,
-				4DFEFE109FB43890F54F23E6 /* Pods_AppleMusicKitTests.framework in Frameworks */,
+				B250D11A2A920E4322E44B24 /* libPods-AppleMusicKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +258,10 @@
 		82C551825B675BDCC664F4DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54BC5725E55209F012638B5B /* Pods_AppleMusicKit.framework */,
-				2CA7A84740B5AC5C9A6FFDEC /* Pods_AppleMusicKitTests.framework */,
-				E1915DA01E6280E7833DD7D9 /* Pods_KidzBopPlayer.framework */,
-				733A8F31BE6E180EA9856D4C /* Pods_KidzBopPlayerTests.framework */,
+				FDE4A563E39A84081363FBF4 /* libPods-AppleMusicKit.a */,
+				432D96B984CB545CD7DE5EDD /* libPods-AppleMusicKitTests.a */,
+				FE8C922C4287CEE8B168F273 /* libPods-KidzBopPlayer.a */,
+				02553859DCB3CFF30F43B4D6 /* libPods-KidzBopPlayerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -304,7 +304,7 @@
 				4D0924661F46B905007FFA2A /* Frameworks */,
 				4D0924671F46B905007FFA2A /* Resources */,
 				4D2C1C74216A7B8A002C27ED /* Embed Frameworks */,
-				A18B2A7EA81429DA140A76C2 /* [CP] Embed Pods Frameworks */,
+				4E02C618DAD3EF8042AFB628 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -362,7 +362,7 @@
 				4D2C1C5E216A7B8A002C27ED /* Sources */,
 				4D2C1C5F216A7B8A002C27ED /* Frameworks */,
 				4D2C1C60216A7B8A002C27ED /* Resources */,
-				AB4D49AAD5D9DF2F664C603E /* [CP] Embed Pods Frameworks */,
+				2DF1021F15807FE4A26232F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -485,6 +485,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2DF1021F15807FE4A26232F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests-resources.sh",
+				"${PODS_ROOT}/CupertinoJWT/install_common_crypto.sh",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/install_common_crypto.sh",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E02C618DAD3EF8042AFB628 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer-resources.sh",
+				"${PODS_ROOT}/CupertinoJWT/install_common_crypto.sh",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/install_common_crypto.sh",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		87CD57BAC58EAEC6E1BC64A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,44 +541,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A18B2A7EA81429DA140A76C2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CupertinoJWT/CupertinoJWT.framework",
-				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CupertinoJWT.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB4D49AAD5D9DF2F664C603E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CupertinoJWT/CupertinoJWT.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CupertinoJWT.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA46E6AB5C7763205C718FCE /* [CP] Check Pods Manifest.lock */ = {
@@ -801,6 +799,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = "$(SRCROOT)/KidzBopPlayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.townsend.Kidz-Bop-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -816,6 +815,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = "$(SRCROOT)/KidzBopPlayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.townsend.Kidz-Bop-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -874,7 +874,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AppleMusicKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -907,7 +907,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AppleMusicKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.townsend.AppleMusicKit;
@@ -931,7 +931,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = AppleMusicKitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -954,7 +954,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = AppleMusicKitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.townsend.AppleMusicKitTests;
