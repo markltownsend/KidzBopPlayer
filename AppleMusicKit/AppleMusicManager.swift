@@ -7,6 +7,13 @@
 
 import Foundation
 import StoreKit
+import Combine
+
+public enum AppleMusicKitError: Error {
+    case badResponse(_ error:Error? = nil)
+    case badRequest(_ error:Error? = nil)
+    case emptyResults(_ error:Error? = nil)
+}
 
 final public class AppleMusicManager {
     static public let shared = AppleMusicManager()
@@ -57,10 +64,10 @@ final public class AppleMusicManager {
         }
     }
 
-    public func search(term: String, types:[SearchType]? = nil, completion: @escaping (ResultsResponse?) -> Void) {
+    public func search(term: String, types:[SearchType]? = nil, completion: @escaping (Result<ResultsResponse?, AppleMusicKitError>) -> Void) {
         guard let url = URL(string: "\(fullBaseUrl)/search"),
             var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false) else {
-            completion(nil)
+                completion(.failure(.badRequest()))
             return
         }
 
@@ -79,24 +86,22 @@ final public class AppleMusicManager {
 
         guard let urlRequest = urlComponents.url,
             let request = appleMusicRequest(with: urlRequest) else {
-            completion(nil)
+                completion(.failure(.badRequest()))
             return
         }
-
-        print("Search url: \(request.url!)")
 
         let session = URLSession.shared
         let dataTask = session.dataTask(with: request) { (data, response, error) in
             if let error = error {
                 print(error)
-                completion(nil)
+                completion(.failure(.badResponse(error)))
                 return
             }
 
             guard let httpResponse = response as? HTTPURLResponse,
                 (200...299).contains(httpResponse.statusCode) else {
                     print("Server error: \(String(describing: response))")
-                    completion(nil)
+                    completion(.failure(.badResponse(error)))
                     return
             }
 
@@ -105,10 +110,10 @@ final public class AppleMusicManager {
                 let decoder = JSONDecoder()
                 let searchResults = try decoder.decode(SearchResults.self, from: data)
                 print(searchResults)
-                completion(searchResults.results)
+                completion(.success(searchResults.results))
             } catch {
                 print(error)
-                completion(nil)
+                completion(.failure(.badResponse(error)))
                 return
             }
         }
