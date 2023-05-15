@@ -20,6 +20,7 @@ target 'KidzBopPlayer' do
   # Pods for Kidz Bop Player
   pod 'CupertinoJWT'
   pod 'KeychainAccess'
+  pod 'Toast-Swift', '~> 5.0.0'
 
   target 'KidzBopPlayerTests' do
     inherit! :search_paths

@@ -1,1 +1,6 @@
-../../../Target Support Files/CupertinoJWT/CupertinoJWT.modulemap
+module CupertinoJWT {
+  umbrella header "CupertinoJWT-umbrella.h"
+
+  export *
+  module * { export * }
+}

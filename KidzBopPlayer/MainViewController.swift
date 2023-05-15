@@ -8,7 +8,7 @@
 import UIKit
 import AppleMusicKit
 
-class MainViewController: UIViewController {
+class MainViewController: UITableViewController {
     @IBOutlet weak var label: UILabel!
 
     override func viewDidLoad() {

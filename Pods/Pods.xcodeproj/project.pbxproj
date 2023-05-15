@@ -7,56 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B0B4319DE038963BC807A71A757081D /* Pods-KidzBopPlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC5EA150664201AC2646476CD0E1F0A /* Pods-KidzBopPlayerTests-dummy.m */; };
-		1321B176FA956A1B28F4438B086F9ABC /* Pods-AppleMusicKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC9F7D09D94F94EE1D63955430BCBB2 /* Pods-AppleMusicKitTests-dummy.m */; };
-		1C12D953352093A4C512FAFE981D1A83 /* Pods-KidzBopPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1013AAAA78A4FA7C76B01F435473E83 /* Pods-KidzBopPlayer-dummy.m */; };
-		20E22A70A0142704E299608DFB5A299D /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE92D789CAC60F1A5C2A5CCF2BE122 /* ASN1.swift */; };
-		42BDDF2AC1CB718A6A3536E96FE2D599 /* CupertinoJWT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF1E934A1B55F3C0E567EB5B1D9863 /* CupertinoJWT-dummy.m */; };
-		560A062DA62DAB1F134ABBB5DE167233 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02BA70C8B104C8A6A9D90E6A8BC0127 /* Data+Extension.swift */; };
-		58F64593FF8443256C42298A16B03F84 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA271517B7ACBC7B20D4CB6E53B1D370 /* JWT.swift */; };
-		5DA6F3817A4FD045187807665F0ADBCA /* CupertinoJWT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBCF3DD18EA4A893A56B513DCE6FF3E /* CupertinoJWT-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		674F51484FA4461FA1AB6F427920AB77 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A977FB5110587182EBEE5008153F0A0 /* Keychain.swift */; };
-		91D1AB145B458201A00E84DB2410BCE3 /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AE992FE75400A39CEB167474F9EFE6 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AEEB437C98DE06C0583F59C1E1B4903E /* ECPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894020CE035319BB53748413027C2BFE /* ECPrivateKey.swift */; };
-		B2C1A61741CC5F75ABD273B0793A26A9 /* P8.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87420529790B5D1B80C5E1AC2824FAC /* P8.swift */; };
-		B2F24787BE283524CF997AECC261CADA /* Pods-AppleMusicKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9608FDAB8587A73B4A3DF589DCADE862 /* Pods-AppleMusicKitTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA1ABE16CDBAFAB8A531E0BBAFE68C7F /* Pods-KidzBopPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78F5D1F9F31216835EA53F460B977C4 /* Pods-KidzBopPlayer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BDD93DD39F82679BA7B88791F7CC64F9 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8076A20427D3C247BD7E19AA29BD1B /* KeychainAccess-dummy.m */; };
-		D2563E9715704CF97A965812CE91AB78 /* CupertinoJWTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90008BCC13BF3D9144753B5822E0AC /* CupertinoJWTError.swift */; };
-		F4BB28CA7EBDA9A50B79797F4A83FF66 /* ECKeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333A9EB8D191A5A8CF2494AF2E39A78 /* ECKeyData.swift */; };
-		F5DDB76E4EC95B0A71F60D02C2E6C6D7 /* Pods-AppleMusicKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3304968733EB1AE8C56260F47C6134 /* Pods-AppleMusicKit-dummy.m */; };
+		0D36C588EDC97137947BEB977EB66FD1 /* CupertinoJWTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64704F9E44BCFBA7388322C87229ED48 /* CupertinoJWTError.swift */; };
+		16D5B20E479D344367759FB92ED0D552 /* ECKeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E11945221AD809AEDA3114BA1DBA38 /* ECKeyData.swift */; };
+		44A01A58D2F0BD02146FBBAFD42DB8CD /* Pods-AppleMusicKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9608FDAB8587A73B4A3DF589DCADE862 /* Pods-AppleMusicKitTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4905FC500696316057682B5E074B136A /* ECPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989242EDA48323B7599D79A4F6D45FBE /* ECPrivateKey.swift */; };
+		5FB22BACD4C693D8DB9CEDC43C678695 /* CupertinoJWT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEF6235B7B5F2B744548C9732C51A2 /* CupertinoJWT-dummy.m */; };
+		62B134914539EF0C6F5700C191B55283 /* Pods-KidzBopPlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC5EA150664201AC2646476CD0E1F0A /* Pods-KidzBopPlayerTests-dummy.m */; };
+		75691472F71D12AC161756AAA34D2FF8 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3360DC4ABA521E2FEAF17E0C6ED4634E /* JWT.swift */; };
+		9A3509CE1005FCCF1A27E4BB9D56AE2D /* CupertinoJWT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F2883D58D3782E96FF7FD2D94E7B1B /* CupertinoJWT-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A81080D2D980A6E3FEEDC0C702DE5959 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35568287BA8585AD04EFB6A7611D007E /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC9D8DB0949E8B34FADF8127B38AB106 /* Pods-KidzBopPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1013AAAA78A4FA7C76B01F435473E83 /* Pods-KidzBopPlayer-dummy.m */; };
+		B1B14CFD0B080D1A71D42C2255A882CC /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F1C7D1A1C4EEF5E452B1E20B234FE /* Data+Extension.swift */; };
+		CA156386746C9A364AD53BF9BB8E6D6B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB9C079601EC9537D65A190FF0D7B1 /* Toast.swift */; };
+		CF42E1D7A8758799FBF00D34E98E52F8 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B380512EA7F898406E8B1E681CFFE9 /* Keychain.swift */; };
+		D6A107E51CB1F115311FEEB37D856470 /* Pods-AppleMusicKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC9F7D09D94F94EE1D63955430BCBB2 /* Pods-AppleMusicKitTests-dummy.m */; };
+		D8ABB3B6F580342E5449ED1437B7C383 /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6CFCB6EB97503CD0231A7101AACD71 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFEDF4D2099B0329A19EEB17C3B68B3A /* P8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A789C745E3F0D05B55436D3FB534933 /* P8.swift */; };
+		E1F5B42599776192A8806D9A7B29F51B /* Pods-AppleMusicKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3304968733EB1AE8C56260F47C6134 /* Pods-AppleMusicKit-dummy.m */; };
+		EE31879E92DE40463E76DFEFF0B3ABE0 /* Pods-KidzBopPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78F5D1F9F31216835EA53F460B977C4 /* Pods-KidzBopPlayer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFF529C792F221D7AE4E40C19AAFE943 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A513584C0F7DA5DA74BF9E1DC6611DB /* ASN1.swift */; };
+		F817C9571CCB1B05CBBAD317AEFD65B6 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A4D8F95F69CF95B63307D0896260E /* Toast-Swift-dummy.m */; };
+		FD7AEB4BA83C6A7513C8E92D661A0BA1 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32E142BA87B91AA169BBAC7609E0B2 /* KeychainAccess-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48A747C48F2C8D46C53ECA1C6B2D8FEC /* PBXContainerItemProxy */ = {
+		076CB4E9AA51EB921FBC50C2D6173824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7592D926F2A7FD8CAD1299CF559D7CDC;
+			remoteInfo = CupertinoJWT;
+		};
+		86A60DBD30EF8B7789D14C2744838460 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE177EB14B108FC5FB44AE7BD23BD140;
 			remoteInfo = "Pods-AppleMusicKit";
 		};
-		4C920A5BD9CE8B90D8CFA923F9EDA8F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7592D926F2A7FD8CAD1299CF559D7CDC;
-			remoteInfo = CupertinoJWT;
-		};
-		66989D9F3CA7D443B00D046F6452C30D /* PBXContainerItemProxy */ = {
+		9EF3BCF838EDBCF9D72568EF8C321B5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F00D58703670F10FC74600746F45B890;
 			remoteInfo = "Pods-KidzBopPlayer";
 		};
-		A99C989E07FC54CCF5FF981712FB1940 /* PBXContainerItemProxy */ = {
+		B284545809B0DFD3272477D910DC0AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
+			remoteInfo = "Toast-Swift";
+		};
+		BB3AC518421EA9B827C84205F1246A89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7592D926F2A7FD8CAD1299CF559D7CDC;
 			remoteInfo = CupertinoJWT;
 		};
-		B732F4DE01D5B77590003E4719CBED1D /* PBXContainerItemProxy */ = {
+		D6A400486AD3F4AC99F44A0DA567A1FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -66,97 +76,111 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03AE992FE75400A39CEB167474F9EFE6 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
-		0BC25350B764EACC30D273BD30680668 /* libKeychainAccess.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKeychainAccess.a; path = libKeychainAccess.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		01482A046715580031C19DADDEB2C28B /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
+		02FB9C079601EC9537D65A190FF0D7B1 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		09E11945221AD809AEDA3114BA1DBA38 /* ECKeyData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECKeyData.swift; path = Sources/ECKeyData.swift; sourceTree = "<group>"; };
 		0C65D855114376DC7972665C739BC06F /* Pods-AppleMusicKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleMusicKit.release.xcconfig"; sourceTree = "<group>"; };
-		1CFE92D789CAC60F1A5C2A5CCF2BE122 /* ASN1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1.swift; path = Sources/ASN1.swift; sourceTree = "<group>"; };
-		2A977FB5110587182EBEE5008153F0A0 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		0DAD988333149765BC0F9E14FDC81DCA /* libPods-AppleMusicKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AppleMusicKitTests.a"; path = "libPods-AppleMusicKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A789C745E3F0D05B55436D3FB534933 /* P8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = P8.swift; path = Sources/P8.swift; sourceTree = "<group>"; };
+		1D36B740CF060C2A2CB6D35F6D32925E /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		1F5DB5FBE1AAD8BE26CBB6952CC1C56A /* install_common_crypto.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = install_common_crypto.sh; sourceTree = "<group>"; };
 		32A4D65812AEF14D8AF86176E2D812F0 /* Pods-AppleMusicKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleMusicKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		379F40777004705E3EE1C4D09D6EE82A /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		3360DC4ABA521E2FEAF17E0C6ED4634E /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = Sources/JWT.swift; sourceTree = "<group>"; };
+		33F2883D58D3782E96FF7FD2D94E7B1B /* CupertinoJWT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CupertinoJWT-umbrella.h"; sourceTree = "<group>"; };
+		35568287BA8585AD04EFB6A7611D007E /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		3A513584C0F7DA5DA74BF9E1DC6611DB /* ASN1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1.swift; path = Sources/ASN1.swift; sourceTree = "<group>"; };
+		3E895C1C658535091C0ADB2CA1897CB8 /* CupertinoJWT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CupertinoJWT-prefix.pch"; sourceTree = "<group>"; };
+		40B380512EA7F898406E8B1E681CFFE9 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
 		4261CE43634BD3F6A21905FC4BD6FE46 /* Pods-KidzBopPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KidzBopPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
-		45D3BD7AB4686496A3C74F9E09EC01CF /* libCupertinoJWT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCupertinoJWT.a; path = libCupertinoJWT.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F4D7DB282CDD9A9A6D1967E04ABDCA /* Pods-AppleMusicKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleMusicKit-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A3F1820E72CA2EDC2B2A6DCE9EA7C43 /* Pods-KidzBopPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KidzBopPlayer-resources.sh"; sourceTree = "<group>"; };
 		4E8ADDCA00CCBAC7CCB8A1A56B32A50B /* Pods-AppleMusicKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleMusicKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		56D69F960E81739EEDB2B2C064A63F70 /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
-		5C0559D64C37A2368095CB8B592E7B13 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
-		63DF10182011B58BC49D3A18DD9DD951 /* CupertinoJWT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CupertinoJWT.xcconfig; sourceTree = "<group>"; };
+		500F1C7D1A1C4EEF5E452B1E20B234FE /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/Data+Extension.swift"; sourceTree = "<group>"; };
+		5B6CFCB6EB97503CD0231A7101AACD71 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		5C8E7315ECAA8C5930AF2F9C76C6E9DB /* CupertinoJWT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CupertinoJWT.modulemap; sourceTree = "<group>"; };
+		5F5AADAD7CB8137540135283D65FC42F /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		64704F9E44BCFBA7388322C87229ED48 /* CupertinoJWTError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CupertinoJWTError.swift; path = Sources/CupertinoJWTError.swift; sourceTree = "<group>"; };
 		679625FFE3878981A9417DE05BD18566 /* Pods-KidzBopPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KidzBopPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		715EE397933CE236223BD1924C229755 /* CupertinoJWT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CupertinoJWT-prefix.pch"; sourceTree = "<group>"; };
+		75471EDD9495BE04ED6B734BE6925357 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
 		7E3304968733EB1AE8C56260F47C6134 /* Pods-AppleMusicKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleMusicKit-dummy.m"; sourceTree = "<group>"; };
+		80BD2B52FF25CBA30F87140DD6B9F298 /* CupertinoJWT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CupertinoJWT.xcconfig; sourceTree = "<group>"; };
 		828944818E561C4467F424C2C154664E /* Pods-KidzBopPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KidzBopPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82977B7F3947AE4B9F46CC6216FA5DAD /* libPods-AppleMusicKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AppleMusicKit.a"; path = "libPods-AppleMusicKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		869075FFBE5109AF2D65BEAA58AC29F6 /* libPods-KidzBopPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KidzBopPlayer.a"; path = "libPods-KidzBopPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		894020CE035319BB53748413027C2BFE /* ECPrivateKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECPrivateKey.swift; path = Sources/ECPrivateKey.swift; sourceTree = "<group>"; };
-		8A8076A20427D3C247BD7E19AA29BD1B /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
 		8BD4ADFA891481A2968E647D5BEDF260 /* Pods-KidzBopPlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KidzBopPlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8BD9D27572ED695C855BE5DC91B5ADE2 /* install_common_crypto.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = install_common_crypto.sh; sourceTree = "<group>"; };
 		8FA2000AB19629A313D5BF929DE350D9 /* Pods-AppleMusicKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleMusicKit.debug.xcconfig"; sourceTree = "<group>"; };
 		9608FDAB8587A73B4A3DF589DCADE862 /* Pods-AppleMusicKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleMusicKitTests-umbrella.h"; sourceTree = "<group>"; };
-		98854E3F5FA9525770167C0E82FE21D3 /* libPods-KidzBopPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KidzBopPlayerTests.a"; path = "libPods-KidzBopPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989242EDA48323B7599D79A4F6D45FBE /* ECPrivateKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECPrivateKey.swift; path = Sources/ECPrivateKey.swift; sourceTree = "<group>"; };
+		9C524D1D575A2694926F7996A776A0D8 /* libCupertinoJWT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCupertinoJWT.a; path = libCupertinoJWT.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A06CA349FFA141C920D15E3F4D43650A /* libPods-KidzBopPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KidzBopPlayer.a"; path = "libPods-KidzBopPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A605AE3BB06AFFE80B5DDDD90C9C5610 /* Pods-AppleMusicKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleMusicKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC957C44D38401759682DF8FDCC27B0D /* libPods-AppleMusicKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AppleMusicKit.a"; path = "libPods-AppleMusicKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF427D19CD30A8962ACCE6E3AF4D9514 /* Pods-KidzBopPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KidzBopPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		AF7B138F34DE15A06991616F4D0E74F6 /* Pods-KidzBopPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KidzBopPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1013AAAA78A4FA7C76B01F435473E83 /* Pods-KidzBopPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KidzBopPlayer-dummy.m"; sourceTree = "<group>"; };
-		B6A082011C8E9F56B320F8329639DEBE /* CupertinoJWT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CupertinoJWT.modulemap; sourceTree = "<group>"; };
+		B575C99A288AD1D9BA126FB1B615EEA4 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
 		B78F5D1F9F31216835EA53F460B977C4 /* Pods-KidzBopPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KidzBopPlayer-umbrella.h"; sourceTree = "<group>"; };
-		BFEF1E934A1B55F3C0E567EB5B1D9863 /* CupertinoJWT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CupertinoJWT-dummy.m"; sourceTree = "<group>"; };
 		C05A04B9214D6E4DA1CC7969C6B7951E /* Pods-AppleMusicKitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleMusicKitTests-resources.sh"; sourceTree = "<group>"; };
 		C1EFFFFE7BBB270DE1EE0B1866758BA0 /* Pods-AppleMusicKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleMusicKit-acknowledgements.plist"; sourceTree = "<group>"; };
-		C333A9EB8D191A5A8CF2494AF2E39A78 /* ECKeyData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECKeyData.swift; path = Sources/ECKeyData.swift; sourceTree = "<group>"; };
 		CAC9F7D09D94F94EE1D63955430BCBB2 /* Pods-AppleMusicKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleMusicKitTests-dummy.m"; sourceTree = "<group>"; };
-		DF90008BCC13BF3D9144753B5822E0AC /* CupertinoJWTError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CupertinoJWTError.swift; path = Sources/CupertinoJWTError.swift; sourceTree = "<group>"; };
+		CCDEF6235B7B5F2B744548C9732C51A2 /* CupertinoJWT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CupertinoJWT-dummy.m"; sourceTree = "<group>"; };
+		CD32E142BA87B91AA169BBAC7609E0B2 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		D6043471C96F93DC41F7DD1E0D7D8B35 /* libToast-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libToast-Swift.a"; path = "libToast-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D241E315207D0179582D72A1368913 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		E02E774731DDF02EEB593596BBE4373B /* libPods-KidzBopPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KidzBopPlayerTests.a"; path = "libPods-KidzBopPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6856C53FAB5B7F0D87F2DD4CF00E600 /* Pods-KidzBopPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KidzBopPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6E6A40740AB0D7761FC0CA36852EC7C /* libPods-AppleMusicKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AppleMusicKitTests.a"; path = "libPods-AppleMusicKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E87420529790B5D1B80C5E1AC2824FAC /* P8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = P8.swift; path = Sources/P8.swift; sourceTree = "<group>"; };
-		EEBCF3DD18EA4A893A56B513DCE6FF3E /* CupertinoJWT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CupertinoJWT-umbrella.h"; sourceTree = "<group>"; };
-		F02BA70C8B104C8A6A9D90E6A8BC0127 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/Data+Extension.swift"; sourceTree = "<group>"; };
+		E8EE7F078656FABB8F6821D10FF994BB /* libKeychainAccess.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKeychainAccess.a; path = libKeychainAccess.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DD08EA91F70DEF30A63812C1F4B93F /* Pods-AppleMusicKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppleMusicKitTests.modulemap"; sourceTree = "<group>"; };
 		F28B76E2BFDF9C7AAFB6F16853C6575F /* Pods-AppleMusicKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleMusicKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7E6B80F50285CD8261E7C51081B05FC /* Pods-KidzBopPlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KidzBopPlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FA271517B7ACBC7B20D4CB6E53B1D370 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = Sources/JWT.swift; sourceTree = "<group>"; };
 		FB46E635CEA41B315EED15714A08BD8E /* Pods-KidzBopPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KidzBopPlayer.modulemap"; sourceTree = "<group>"; };
+		FC4A4D8F95F69CF95B63307D0896260E /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
 		FFC5EA150664201AC2646476CD0E1F0A /* Pods-KidzBopPlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KidzBopPlayerTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20E4E859B5DA8C34C00274097A8C8122 /* Frameworks */ = {
+		33C19DD65368B03737835A089BCE6763 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		240E97070B89515A861EA97CA6E06222 /* Frameworks */ = {
+		8E2A4AA086679C30BA33384E9B32CB0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E5B8898567FBCC57E82F5F48BDA623B /* Frameworks */ = {
+		CCC78703C16A576E251AED1339093A41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FAEDCAED4991D6F934E10D1EE6D631A /* Frameworks */ = {
+		E118682940AB6011568CC75C8463DA98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5337C5C6A76AB3F65B7635876C2FD748 /* Frameworks */ = {
+		E1EF946DBBD8E499D247987939E017C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6A2DD1A57BDF8097D47B9DAE44D952C /* Frameworks */ = {
+		EDD6296A3C2BA9F2C6B0E35A33D03E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B903B6DBFA0E54E650D42F0DFC92CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,25 +214,17 @@
 			path = "Target Support Files/Pods-AppleMusicKit";
 			sourceTree = "<group>";
 		};
-		1E51663FC4740B182D0056BD363B3560 /* Support Files */ = {
+		3C4894F9FB52908941C562E673F1ED1F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B6A082011C8E9F56B320F8329639DEBE /* CupertinoJWT.modulemap */,
-				63DF10182011B58BC49D3A18DD9DD951 /* CupertinoJWT.xcconfig */,
-				BFEF1E934A1B55F3C0E567EB5B1D9863 /* CupertinoJWT-dummy.m */,
-				715EE397933CE236223BD1924C229755 /* CupertinoJWT-prefix.pch */,
-				EEBCF3DD18EA4A893A56B513DCE6FF3E /* CupertinoJWT-umbrella.h */,
+				5C8E7315ECAA8C5930AF2F9C76C6E9DB /* CupertinoJWT.modulemap */,
+				80BD2B52FF25CBA30F87140DD6B9F298 /* CupertinoJWT.xcconfig */,
+				CCDEF6235B7B5F2B744548C9732C51A2 /* CupertinoJWT-dummy.m */,
+				3E895C1C658535091C0ADB2CA1897CB8 /* CupertinoJWT-prefix.pch */,
+				33F2883D58D3782E96FF7FD2D94E7B1B /* CupertinoJWT-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CupertinoJWT";
-			sourceTree = "<group>";
-		};
-		20B00AFB11A931CFA9AC146F2A001652 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8BD9D27572ED695C855BE5DC91B5ADE2 /* install_common_crypto.sh */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		445725FDEA1813E2E22B488E85932704 /* Pods-KidzBopPlayerTests */ = {
@@ -224,17 +240,48 @@
 			path = "Target Support Files/Pods-KidzBopPlayerTests";
 			sourceTree = "<group>";
 		};
-		5E0EF5ABDBADDB10C6CEA990C4C597AE /* Products */ = {
+		55F259252268CE84F6AF7C3BF151F858 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45D3BD7AB4686496A3C74F9E09EC01CF /* libCupertinoJWT.a */,
-				0BC25350B764EACC30D273BD30680668 /* libKeychainAccess.a */,
-				82977B7F3947AE4B9F46CC6216FA5DAD /* libPods-AppleMusicKit.a */,
-				E6E6A40740AB0D7761FC0CA36852EC7C /* libPods-AppleMusicKitTests.a */,
-				869075FFBE5109AF2D65BEAA58AC29F6 /* libPods-KidzBopPlayer.a */,
-				98854E3F5FA9525770167C0E82FE21D3 /* libPods-KidzBopPlayerTests.a */,
+				9C524D1D575A2694926F7996A776A0D8 /* libCupertinoJWT.a */,
+				E8EE7F078656FABB8F6821D10FF994BB /* libKeychainAccess.a */,
+				AC957C44D38401759682DF8FDCC27B0D /* libPods-AppleMusicKit.a */,
+				0DAD988333149765BC0F9E14FDC81DCA /* libPods-AppleMusicKitTests.a */,
+				A06CA349FFA141C920D15E3F4D43650A /* libPods-KidzBopPlayer.a */,
+				E02E774731DDF02EEB593596BBE4373B /* libPods-KidzBopPlayerTests.a */,
+				D6043471C96F93DC41F7DD1E0D7D8B35 /* libToast-Swift.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE114A4BF53CF909CBD4B2F6DE3CB92 /* CupertinoJWT */ = {
+			isa = PBXGroup;
+			children = (
+				3A513584C0F7DA5DA74BF9E1DC6611DB /* ASN1.swift */,
+				64704F9E44BCFBA7388322C87229ED48 /* CupertinoJWTError.swift */,
+				500F1C7D1A1C4EEF5E452B1E20B234FE /* Data+Extension.swift */,
+				09E11945221AD809AEDA3114BA1DBA38 /* ECKeyData.swift */,
+				989242EDA48323B7599D79A4F6D45FBE /* ECPrivateKey.swift */,
+				3360DC4ABA521E2FEAF17E0C6ED4634E /* JWT.swift */,
+				1A789C745E3F0D05B55436D3FB534933 /* P8.swift */,
+				99478AED4996174AD3E95DCE86E4238D /* Resources */,
+				3C4894F9FB52908941C562E673F1ED1F /* Support Files */,
+			);
+			name = CupertinoJWT;
+			path = CupertinoJWT;
+			sourceTree = "<group>";
+		};
+		6B6CA515C3B31D4A34791D1E39808A8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D241E315207D0179582D72A1368913 /* KeychainAccess.modulemap */,
+				01482A046715580031C19DADDEB2C28B /* KeychainAccess.xcconfig */,
+				CD32E142BA87B91AA169BBAC7609E0B2 /* KeychainAccess-dummy.m */,
+				B575C99A288AD1D9BA126FB1B615EEA4 /* KeychainAccess-prefix.pch */,
+				5B6CFCB6EB97503CD0231A7101AACD71 /* KeychainAccess-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
 			sourceTree = "<group>";
 		};
 		8125B484C3C480A6C9ED1745370EACEA /* Pods-AppleMusicKitTests */ = {
@@ -253,36 +300,22 @@
 			path = "Target Support Files/Pods-AppleMusicKitTests";
 			sourceTree = "<group>";
 		};
-		8D815DE67B275A7917FE00D71381977A /* Support Files */ = {
+		988B553A2A31CB209C5ADDE65DE51936 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				379F40777004705E3EE1C4D09D6EE82A /* KeychainAccess.modulemap */,
-				56D69F960E81739EEDB2B2C064A63F70 /* KeychainAccess.xcconfig */,
-				8A8076A20427D3C247BD7E19AA29BD1B /* KeychainAccess-dummy.m */,
-				5C0559D64C37A2368095CB8B592E7B13 /* KeychainAccess-prefix.pch */,
-				03AE992FE75400A39CEB167474F9EFE6 /* KeychainAccess-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KeychainAccess";
-			sourceTree = "<group>";
-		};
-		905DB8FEB5FA095A00BC7506A346655D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B9BC5A6B8B5FCDD93D3EC6262C9D0390 /* CupertinoJWT */,
-				96FF6E77DF850B114EA8CF26C901BFFC /* KeychainAccess */,
+				5BE114A4BF53CF909CBD4B2F6DE3CB92 /* CupertinoJWT */,
+				E1BD6C047A74ADE1A0BB1279E32DC276 /* KeychainAccess */,
+				FCAC59482A7B295799636975AA751416 /* Toast-Swift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		96FF6E77DF850B114EA8CF26C901BFFC /* KeychainAccess */ = {
+		99478AED4996174AD3E95DCE86E4238D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2A977FB5110587182EBEE5008153F0A0 /* Keychain.swift */,
-				8D815DE67B275A7917FE00D71381977A /* Support Files */,
+				1F5DB5FBE1AAD8BE26CBB6952CC1C56A /* install_common_crypto.sh */,
 			);
-			name = KeychainAccess;
-			path = KeychainAccess;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A99CB8F2F6C9D2E7CE8053D3DF58E8C5 /* Pods-KidzBopPlayer */ = {
@@ -301,30 +334,13 @@
 			path = "Target Support Files/Pods-KidzBopPlayer";
 			sourceTree = "<group>";
 		};
-		B9BC5A6B8B5FCDD93D3EC6262C9D0390 /* CupertinoJWT */ = {
-			isa = PBXGroup;
-			children = (
-				1CFE92D789CAC60F1A5C2A5CCF2BE122 /* ASN1.swift */,
-				DF90008BCC13BF3D9144753B5822E0AC /* CupertinoJWTError.swift */,
-				F02BA70C8B104C8A6A9D90E6A8BC0127 /* Data+Extension.swift */,
-				C333A9EB8D191A5A8CF2494AF2E39A78 /* ECKeyData.swift */,
-				894020CE035319BB53748413027C2BFE /* ECPrivateKey.swift */,
-				FA271517B7ACBC7B20D4CB6E53B1D370 /* JWT.swift */,
-				E87420529790B5D1B80C5E1AC2824FAC /* P8.swift */,
-				20B00AFB11A931CFA9AC146F2A001652 /* Resources */,
-				1E51663FC4740B182D0056BD363B3560 /* Support Files */,
-			);
-			name = CupertinoJWT;
-			path = CupertinoJWT;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				905DB8FEB5FA095A00BC7506A346655D /* Pods */,
-				5E0EF5ABDBADDB10C6CEA990C4C597AE /* Products */,
+				988B553A2A31CB209C5ADDE65DE51936 /* Pods */,
+				55F259252268CE84F6AF7C3BF151F858 /* Products */,
 				0E1F9CDA349E4D9FD9AE1870BE385521 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -336,52 +352,93 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E1BD6C047A74ADE1A0BB1279E32DC276 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				40B380512EA7F898406E8B1E681CFFE9 /* Keychain.swift */,
+				6B6CA515C3B31D4A34791D1E39808A8A /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		E9E3C374FFAAA9F5F2DC64436A2C2199 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75471EDD9495BE04ED6B734BE6925357 /* Toast-Swift.modulemap */,
+				5F5AADAD7CB8137540135283D65FC42F /* Toast-Swift.xcconfig */,
+				FC4A4D8F95F69CF95B63307D0896260E /* Toast-Swift-dummy.m */,
+				1D36B740CF060C2A2CB6D35F6D32925E /* Toast-Swift-prefix.pch */,
+				35568287BA8585AD04EFB6A7611D007E /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		FCAC59482A7B295799636975AA751416 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				02FB9C079601EC9537D65A190FF0D7B1 /* Toast.swift */,
+				E9E3C374FFAAA9F5F2DC64436A2C2199 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E58F857626A3063264A7139CF2BE9F8 /* Headers */ = {
+		2213B49C01E1609E7D1877C9D93FBFF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D1AB145B458201A00E84DB2410BCE3 /* KeychainAccess-umbrella.h in Headers */,
+				9A3509CE1005FCCF1A27E4BB9D56AE2D /* CupertinoJWT-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B864A1567D03B51303BADAED92A5F46 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2F24787BE283524CF997AECC261CADA /* Pods-AppleMusicKitTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DA83E0B4D74FBC082E2191886187F50 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA1ABE16CDBAFAB8A531E0BBAFE68C7F /* Pods-KidzBopPlayer-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		619642969A3DE88BEB0E3D844F579100 /* Headers */ = {
+		5BE4EB4D439784269BBBD657B8271381 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A96D84CC6C89E2009BDB15876F3DBD /* Headers */ = {
+		5DF869723B922DD6CEADCE724DCDC6C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA6F3817A4FD045187807665F0ADBCA /* CupertinoJWT-umbrella.h in Headers */,
+				EE31879E92DE40463E76DFEFF0B3ABE0 /* Pods-KidzBopPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB3E1C5CF68DF017853D8369115A074E /* Headers */ = {
+		AC544CEDDC40D71CB746DF6D765963DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492FA28962F12B75ABD8A23821ABA04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ABB3B6F580342E5449ED1437B7C383 /* KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41FF9CC9FE444EC0FE39185B0174246 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A01A58D2F0BD02146FBBAFD42DB8CD /* Pods-AppleMusicKitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F961A63889ADB085CBEE1D6EEE755A23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81080D2D980A6E3FEEDC0C702DE5959 /* Toast-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,30 +447,30 @@
 /* Begin PBXNativeTarget section */
 		4F78C6989D1004F3D335DF0A0D85BB42 /* Pods-KidzBopPlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE8DF6B5E35A1F4A659DB643FB0D324 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayerTests" */;
+			buildConfigurationList = EE013FE0723EA536B306335E0145FA97 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayerTests" */;
 			buildPhases = (
-				CB3E1C5CF68DF017853D8369115A074E /* Headers */,
-				034F0DBEBA2FFF46D292250FF2A477C4 /* Sources */,
-				240E97070B89515A861EA97CA6E06222 /* Frameworks */,
+				AC544CEDDC40D71CB746DF6D765963DA /* Headers */,
+				0533628E875BA9B7D04C06D3434B3917 /* Sources */,
+				EDD6296A3C2BA9F2C6B0E35A33D03E66 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				71678D58E4E1851A807DF15D941C1724 /* PBXTargetDependency */,
+				C3DBC2FAF4E65680E9B97F54E8434F13 /* PBXTargetDependency */,
 			);
 			name = "Pods-KidzBopPlayerTests";
 			productName = "Pods-KidzBopPlayerTests";
-			productReference = 98854E3F5FA9525770167C0E82FE21D3 /* libPods-KidzBopPlayerTests.a */;
+			productReference = E02E774731DDF02EEB593596BBE4373B /* libPods-KidzBopPlayerTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C089CA80A4951E4A29E2F7D1F1FB83BB /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildConfigurationList = 9ACD53F0E09E91849384B7E9108582B6 /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
 			buildPhases = (
-				0E58F857626A3063264A7139CF2BE9F8 /* Headers */,
-				DF453F4F3802CF8C157917F1421EE348 /* Sources */,
-				4FAEDCAED4991D6F934E10D1EE6D631A /* Frameworks */,
-				44AC9A41018E34A72CFA73B9612349E7 /* Copy generated compatibility header */,
+				D492FA28962F12B75ABD8A23821ABA04 /* Headers */,
+				B400605D24BF12941B181786FD235958 /* Sources */,
+				E118682940AB6011568CC75C8463DA98 /* Frameworks */,
+				988325A8CBAFED81E123BA351205C202 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -421,18 +478,18 @@
 			);
 			name = KeychainAccess;
 			productName = KeychainAccess;
-			productReference = 0BC25350B764EACC30D273BD30680668 /* libKeychainAccess.a */;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* libKeychainAccess.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7592D926F2A7FD8CAD1299CF559D7CDC /* CupertinoJWT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5EDA3420729E809AEA8953C43E42C02 /* Build configuration list for PBXNativeTarget "CupertinoJWT" */;
+			buildConfigurationList = 73414AA42AD127C189FA5AB1C44C6CD7 /* Build configuration list for PBXNativeTarget "CupertinoJWT" */;
 			buildPhases = (
-				A8A96D84CC6C89E2009BDB15876F3DBD /* Headers */,
-				B0D130F84BB1C34D3B862C0CAC4279F2 /* [CP-User] CommonCrypto */,
-				CDD85F52D2EBECE68ECA1EB5A8C4AE4B /* Sources */,
-				D6A2DD1A57BDF8097D47B9DAE44D952C /* Frameworks */,
-				B7EBF0A79F112E13417D21A0F8EB0BC7 /* Copy generated compatibility header */,
+				2213B49C01E1609E7D1877C9D93FBFF0 /* Headers */,
+				02357EBA71220D95A482FBC3B72C25BA /* [CP-User] CommonCrypto */,
+				BD1D5FF9EE280502DF986365D46BAACF /* Sources */,
+				8E2A4AA086679C30BA33384E9B32CB0C /* Frameworks */,
+				4FB22722BF361ABC91C6762292F5F25D /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -440,16 +497,34 @@
 			);
 			name = CupertinoJWT;
 			productName = CupertinoJWT;
-			productReference = 45D3BD7AB4686496A3C74F9E09EC01CF /* libCupertinoJWT.a */;
+			productReference = 9C524D1D575A2694926F7996A776A0D8 /* libCupertinoJWT.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B664401CE8C5515C81A0E68C94E75B /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				F961A63889ADB085CBEE1D6EEE755A23 /* Headers */,
+				D304B56E4C96B2B2090F155EFC8DB1BF /* Sources */,
+				33C19DD65368B03737835A089BCE6763 /* Frameworks */,
+				F16ECCEFC0CFBD47F2DEC64B6E2CDFA6 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* libToast-Swift.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		CE177EB14B108FC5FB44AE7BD23BD140 /* Pods-AppleMusicKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7125F5BEFCDEFC1C5506FBCA93C7D81A /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKit" */;
+			buildConfigurationList = 5BB0D709CCAFEF8A6FA19A6D4C2EC9F4 /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKit" */;
 			buildPhases = (
-				619642969A3DE88BEB0E3D844F579100 /* Headers */,
-				DF40C39C78710990485257F24B4F6BC1 /* Sources */,
-				5337C5C6A76AB3F65B7635876C2FD748 /* Frameworks */,
+				5BE4EB4D439784269BBBD657B8271381 /* Headers */,
+				5FA0BCDE52BD3836C2F024C74123F509 /* Sources */,
+				CCC78703C16A576E251AED1339093A41 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -457,45 +532,46 @@
 			);
 			name = "Pods-AppleMusicKit";
 			productName = "Pods-AppleMusicKit";
-			productReference = 82977B7F3947AE4B9F46CC6216FA5DAD /* libPods-AppleMusicKit.a */;
+			productReference = AC957C44D38401759682DF8FDCC27B0D /* libPods-AppleMusicKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DDE7437B52D82A594DA76E5CCE172230 /* Pods-AppleMusicKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B8B782CA762E09E32BB8807E98709EE /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKitTests" */;
+			buildConfigurationList = A8CB1A20458C4ABBA012F1726D596700 /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKitTests" */;
 			buildPhases = (
-				1B864A1567D03B51303BADAED92A5F46 /* Headers */,
-				C0F0AC3ED38A1907A9F9B7FD68475272 /* Sources */,
-				3E5B8898567FBCC57E82F5F48BDA623B /* Frameworks */,
+				F41FF9CC9FE444EC0FE39185B0174246 /* Headers */,
+				07FF09D31C6DC8AB70BCE3F9AE7C9D81 /* Sources */,
+				E1EF946DBBD8E499D247987939E017C2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				57EBB149EF2637F264B5A60180F3D0FE /* PBXTargetDependency */,
-				1664A6B1E646386E510FF13609F481F1 /* PBXTargetDependency */,
+				D4318E922C6C905A5EA533D92D3429C8 /* PBXTargetDependency */,
+				5F28010F5B59EAA084075E957B59FEB9 /* PBXTargetDependency */,
 			);
 			name = "Pods-AppleMusicKitTests";
 			productName = "Pods-AppleMusicKitTests";
-			productReference = E6E6A40740AB0D7761FC0CA36852EC7C /* libPods-AppleMusicKitTests.a */;
+			productReference = 0DAD988333149765BC0F9E14FDC81DCA /* libPods-AppleMusicKitTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F00D58703670F10FC74600746F45B890 /* Pods-KidzBopPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE5C08BA887F5A8D9842BA4ABFF84625 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayer" */;
+			buildConfigurationList = C53C9623D9063E42D8A054083147F808 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayer" */;
 			buildPhases = (
-				1DA83E0B4D74FBC082E2191886187F50 /* Headers */,
-				0B804DEA0E4DE94604B790A230DA57F1 /* Sources */,
-				20E4E859B5DA8C34C00274097A8C8122 /* Frameworks */,
+				5DF869723B922DD6CEADCE724DCDC6C3 /* Headers */,
+				88637BB524FF92B9C0AEB592D12926BF /* Sources */,
+				F4B903B6DBFA0E54E650D42F0DFC92CB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				66FD9132E4C75366D6DB9AE1BDA89835 /* PBXTargetDependency */,
-				69D34F851C2EFC19766F2FB36F63DDBC /* PBXTargetDependency */,
+				A4DAC303738783328A5DA89049963063 /* PBXTargetDependency */,
+				844EB17EE6F0FA9197B98CA766EBAF1A /* PBXTargetDependency */,
+				3721A6C1651A33CFC08A3B6D0E6BA356 /* PBXTargetDependency */,
 			);
 			name = "Pods-KidzBopPlayer";
 			productName = "Pods-KidzBopPlayer";
-			productReference = 869075FFBE5109AF2D65BEAA58AC29F6 /* libPods-KidzBopPlayer.a */;
+			productReference = A06CA349FFA141C920D15E3F4D43650A /* libPods-KidzBopPlayer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -504,8 +580,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -515,7 +591,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5E0EF5ABDBADDB10C6CEA990C4C597AE /* Products */;
+			productRefGroup = 55F259252268CE84F6AF7C3BF151F858 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -525,36 +601,13 @@
 				DDE7437B52D82A594DA76E5CCE172230 /* Pods-AppleMusicKitTests */,
 				F00D58703670F10FC74600746F45B890 /* Pods-KidzBopPlayer */,
 				4F78C6989D1004F3D335DF0A0D85BB42 /* Pods-KidzBopPlayerTests */,
+				B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44AC9A41018E34A72CFA73B9612349E7 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess.modulemap",
-				"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/KeychainAccess-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-		};
-		B0D130F84BB1C34D3B862C0CAC4279F2 /* [CP-User] CommonCrypto */ = {
+		02357EBA71220D95A482FBC3B72C25BA /* [CP-User] CommonCrypto */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -564,7 +617,7 @@
 			shellPath = /bin/sh;
 			shellScript = "sh ${PODS_TARGET_SRCROOT}/install_common_crypto.sh";
 		};
-		B7EBF0A79F112E13417D21A0F8EB0BC7 /* Copy generated compatibility header */ = {
+		4FB22722BF361ABC91C6762292F5F25D /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -588,101 +641,215 @@
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CupertinoJWT/CupertinoJWT.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CupertinoJWT/CupertinoJWT-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
+		988325A8CBAFED81E123BA351205C202 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess.modulemap",
+				"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeychainAccess/KeychainAccess-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		F16ECCEFC0CFBD47F2DEC64B6E2CDFA6 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Toast_Swift/Toast-Swift.modulemap",
+				"${PODS_ROOT}/Headers/Public/Toast_Swift/Toast-Swift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Toast_Swift/Toast-Swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Toast_Swift/Toast-Swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		034F0DBEBA2FFF46D292250FF2A477C4 /* Sources */ = {
+		0533628E875BA9B7D04C06D3434B3917 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B0B4319DE038963BC807A71A757081D /* Pods-KidzBopPlayerTests-dummy.m in Sources */,
+				62B134914539EF0C6F5700C191B55283 /* Pods-KidzBopPlayerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B804DEA0E4DE94604B790A230DA57F1 /* Sources */ = {
+		07FF09D31C6DC8AB70BCE3F9AE7C9D81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C12D953352093A4C512FAFE981D1A83 /* Pods-KidzBopPlayer-dummy.m in Sources */,
+				D6A107E51CB1F115311FEEB37D856470 /* Pods-AppleMusicKitTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0F0AC3ED38A1907A9F9B7FD68475272 /* Sources */ = {
+		5FA0BCDE52BD3836C2F024C74123F509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1321B176FA956A1B28F4438B086F9ABC /* Pods-AppleMusicKitTests-dummy.m in Sources */,
+				E1F5B42599776192A8806D9A7B29F51B /* Pods-AppleMusicKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDD85F52D2EBECE68ECA1EB5A8C4AE4B /* Sources */ = {
+		88637BB524FF92B9C0AEB592D12926BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E22A70A0142704E299608DFB5A299D /* ASN1.swift in Sources */,
-				42BDDF2AC1CB718A6A3536E96FE2D599 /* CupertinoJWT-dummy.m in Sources */,
-				D2563E9715704CF97A965812CE91AB78 /* CupertinoJWTError.swift in Sources */,
-				560A062DA62DAB1F134ABBB5DE167233 /* Data+Extension.swift in Sources */,
-				F4BB28CA7EBDA9A50B79797F4A83FF66 /* ECKeyData.swift in Sources */,
-				AEEB437C98DE06C0583F59C1E1B4903E /* ECPrivateKey.swift in Sources */,
-				58F64593FF8443256C42298A16B03F84 /* JWT.swift in Sources */,
-				B2C1A61741CC5F75ABD273B0793A26A9 /* P8.swift in Sources */,
+				AC9D8DB0949E8B34FADF8127B38AB106 /* Pods-KidzBopPlayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF40C39C78710990485257F24B4F6BC1 /* Sources */ = {
+		B400605D24BF12941B181786FD235958 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DDB76E4EC95B0A71F60D02C2E6C6D7 /* Pods-AppleMusicKit-dummy.m in Sources */,
+				CF42E1D7A8758799FBF00D34E98E52F8 /* Keychain.swift in Sources */,
+				FD7AEB4BA83C6A7513C8E92D661A0BA1 /* KeychainAccess-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF453F4F3802CF8C157917F1421EE348 /* Sources */ = {
+		BD1D5FF9EE280502DF986365D46BAACF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				674F51484FA4461FA1AB6F427920AB77 /* Keychain.swift in Sources */,
-				BDD93DD39F82679BA7B88791F7CC64F9 /* KeychainAccess-dummy.m in Sources */,
+				EFF529C792F221D7AE4E40C19AAFE943 /* ASN1.swift in Sources */,
+				5FB22BACD4C693D8DB9CEDC43C678695 /* CupertinoJWT-dummy.m in Sources */,
+				0D36C588EDC97137947BEB977EB66FD1 /* CupertinoJWTError.swift in Sources */,
+				B1B14CFD0B080D1A71D42C2255A882CC /* Data+Extension.swift in Sources */,
+				16D5B20E479D344367759FB92ED0D552 /* ECKeyData.swift in Sources */,
+				4905FC500696316057682B5E074B136A /* ECPrivateKey.swift in Sources */,
+				75691472F71D12AC161756AAA34D2FF8 /* JWT.swift in Sources */,
+				DFEDF4D2099B0329A19EEB17C3B68B3A /* P8.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D304B56E4C96B2B2090F155EFC8DB1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F817C9571CCB1B05CBBAD317AEFD65B6 /* Toast-Swift-dummy.m in Sources */,
+				CA156386746C9A364AD53BF9BB8E6D6B /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1664A6B1E646386E510FF13609F481F1 /* PBXTargetDependency */ = {
+		3721A6C1651A33CFC08A3B6D0E6BA356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
+			targetProxy = B284545809B0DFD3272477D910DC0AE5 /* PBXContainerItemProxy */;
+		};
+		5F28010F5B59EAA084075E957B59FEB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AppleMusicKit";
 			target = CE177EB14B108FC5FB44AE7BD23BD140 /* Pods-AppleMusicKit */;
-			targetProxy = 48A747C48F2C8D46C53ECA1C6B2D8FEC /* PBXContainerItemProxy */;
+			targetProxy = 86A60DBD30EF8B7789D14C2744838460 /* PBXContainerItemProxy */;
 		};
-		57EBB149EF2637F264B5A60180F3D0FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CupertinoJWT;
-			target = 7592D926F2A7FD8CAD1299CF559D7CDC /* CupertinoJWT */;
-			targetProxy = A99C989E07FC54CCF5FF981712FB1940 /* PBXContainerItemProxy */;
-		};
-		66FD9132E4C75366D6DB9AE1BDA89835 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CupertinoJWT;
-			target = 7592D926F2A7FD8CAD1299CF559D7CDC /* CupertinoJWT */;
-			targetProxy = 4C920A5BD9CE8B90D8CFA923F9EDA8F9 /* PBXContainerItemProxy */;
-		};
-		69D34F851C2EFC19766F2FB36F63DDBC /* PBXTargetDependency */ = {
+		844EB17EE6F0FA9197B98CA766EBAF1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeychainAccess;
 			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
-			targetProxy = B732F4DE01D5B77590003E4719CBED1D /* PBXContainerItemProxy */;
+			targetProxy = D6A400486AD3F4AC99F44A0DA567A1FB /* PBXContainerItemProxy */;
 		};
-		71678D58E4E1851A807DF15D941C1724 /* PBXTargetDependency */ = {
+		A4DAC303738783328A5DA89049963063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CupertinoJWT;
+			target = 7592D926F2A7FD8CAD1299CF559D7CDC /* CupertinoJWT */;
+			targetProxy = BB3AC518421EA9B827C84205F1246A89 /* PBXContainerItemProxy */;
+		};
+		C3DBC2FAF4E65680E9B97F54E8434F13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KidzBopPlayer";
 			target = F00D58703670F10FC74600746F45B890 /* Pods-KidzBopPlayer */;
-			targetProxy = 66989D9F3CA7D443B00D046F6452C30D /* PBXContainerItemProxy */;
+			targetProxy = 9EF3BCF838EDBCF9D72568EF8C321B5F /* PBXContainerItemProxy */;
+		};
+		D4318E922C6C905A5EA533D92D3429C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CupertinoJWT;
+			target = 7592D926F2A7FD8CAD1299CF559D7CDC /* CupertinoJWT */;
+			targetProxy = 076CB4E9AA51EB921FBC50C2D6173824 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		003262F8737891D3A32441DEEF3F0561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BD2B52FF25CBA30F87140DD6B9F298 /* CupertinoJWT.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CupertinoJWT/CupertinoJWT-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/CupertinoJWT/CupertinoJWT.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CupertinoJWT;
+				PRODUCT_NAME = CupertinoJWT;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E6DB7BFA284D850C67B686B37EAE729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7B138F34DE15A06991616F4D0E74F6 /* Pods-KidzBopPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -747,9 +914,9 @@
 			};
 			name = Debug;
 		};
-		22EC2D82EA7D4C49433C4A03A2664CD0 /* Release */ = {
+		4383E304DDF3834837EB6555771ECD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56D69F960E81739EEDB2B2C064A63F70 /* KeychainAccess.xcconfig */;
+			baseConfigurationReference = 01482A046715580031C19DADDEB2C28B /* KeychainAccess.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -768,39 +935,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		24B20EF6138A537C4580FF9195B7CDE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F28B76E2BFDF9C7AAFB6F16853C6575F /* Pods-AppleMusicKitTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		373AFE87D220EDFC3F7AE37D262D3F5B /* Debug */ = {
+		4BAE71BD1398CC73863C55E04D80C77E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FA2000AB19629A313D5BF929DE350D9 /* Pods-AppleMusicKit.debug.xcconfig */;
+			baseConfigurationReference = 4261CE43634BD3F6A21905FC4BD6FE46 /* Pods-KidzBopPlayerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -811,30 +953,6 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4A120CCC59B2D3B702CA92F7990DC8B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 679625FFE3878981A9417DE05BD18566 /* Pods-KidzBopPlayer.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -846,58 +964,7 @@
 			};
 			name = Release;
 		};
-		54220ACEA38179AE85303D94BDE030DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56D69F960E81739EEDB2B2C064A63F70 /* KeychainAccess.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/KeychainAccess/KeychainAccess.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = KeychainAccess;
-				PRODUCT_NAME = KeychainAccess;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6BD807DF227218CD9806B30AB760BFC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A605AE3BB06AFFE80B5DDDD90C9C5610 /* Pods-AppleMusicKitTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		767EAD7CAF74FFAB8DD5F8D86884697C /* Debug */ = {
+		58B8593EE4C7D01F9038EE708186541A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF427D19CD30A8962ACCE6E3AF4D9514 /* Pods-KidzBopPlayer.debug.xcconfig */;
 			buildSettings = {
@@ -921,9 +988,9 @@
 			};
 			name = Debug;
 		};
-		7AF82A8F2FF12DFBF79F76D33F02F222 /* Debug */ = {
+		8D36572061FF0F47839251F247A7CEE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF7B138F34DE15A06991616F4D0E74F6 /* Pods-KidzBopPlayerTests.debug.xcconfig */;
+			baseConfigurationReference = F28B76E2BFDF9C7AAFB6F16853C6575F /* Pods-AppleMusicKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -934,6 +1001,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -944,33 +1012,9 @@
 			};
 			name = Debug;
 		};
-		A42162DE1712D8FD08D50228E6B86D16 /* Release */ = {
+		A38A3457574BA0A478C8E73C339234CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C65D855114376DC7972665C739BC06F /* Pods-AppleMusicKit.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D556F5E98013F618DC14436E79A18558 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DF10182011B58BC49D3A18DD9DD951 /* CupertinoJWT.xcconfig */;
+			baseConfigurationReference = 80BD2B52FF25CBA30F87140DD6B9F298 /* CupertinoJWT.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -995,9 +1039,34 @@
 			};
 			name = Debug;
 		};
-		EDB8306F2DED8DF932DA745C6787B3D8 /* Release */ = {
+		BE4D2F0194EE165BBB0905A58EC50BA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4261CE43634BD3F6A21905FC4BD6FE46 /* Pods-KidzBopPlayerTests.release.xcconfig */;
+			baseConfigurationReference = 679625FFE3878981A9417DE05BD18566 /* Pods-KidzBopPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97FD4153D63AFA465238322320F1FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C65D855114376DC7972665C739BC06F /* Pods-AppleMusicKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -1018,6 +1087,107 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		D051010F4E32818B6E4F63A7CE0EFBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5AADAD7CB8137540135283D65FC42F /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/Toast_Swift/Toast-Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = "Toast-Swift";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB019AFF6B0D8004C5F15B053C88FFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A605AE3BB06AFFE80B5DDDD90C9C5610 /* Pods-AppleMusicKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00BFE770D75B2EA6267269FC9EE4382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5AADAD7CB8137540135283D65FC42F /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/Toast_Swift/Toast-Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = "Toast-Swift";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E02EECD55875AA1D3E1025881456BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA2000AB19629A313D5BF929DE350D9 /* Pods-AppleMusicKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1079,29 +1249,28 @@
 			};
 			name = Release;
 		};
-		F4F9C491139C298D10BA36A95B45708E /* Release */ = {
+		F93AACB6711CAED35961FA93B70FA85B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DF10182011B58BC49D3A18DD9DD951 /* CupertinoJWT.xcconfig */;
+			baseConfigurationReference = 01482A046715580031C19DADDEB2C28B /* KeychainAccess.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CupertinoJWT/CupertinoJWT-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = Headers/Public/CupertinoJWT/CupertinoJWT.modulemap;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KeychainAccess/KeychainAccess.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CupertinoJWT;
-				PRODUCT_NAME = CupertinoJWT;
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1110,11 +1279,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BE8DF6B5E35A1F4A659DB643FB0D324 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayerTests" */ = {
+		31B664401CE8C5515C81A0E68C94E75B /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AF82A8F2FF12DFBF79F76D33F02F222 /* Debug */,
-				EDB8306F2DED8DF932DA745C6787B3D8 /* Release */,
+				D051010F4E32818B6E4F63A7CE0EFBB4 /* Debug */,
+				E00BFE770D75B2EA6267269FC9EE4382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1128,47 +1297,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7125F5BEFCDEFC1C5506FBCA93C7D81A /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKit" */ = {
+		5BB0D709CCAFEF8A6FA19A6D4C2EC9F4 /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				373AFE87D220EDFC3F7AE37D262D3F5B /* Debug */,
-				A42162DE1712D8FD08D50228E6B86D16 /* Release */,
+				E02EECD55875AA1D3E1025881456BFBD /* Debug */,
+				C97FD4153D63AFA465238322320F1FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B8B782CA762E09E32BB8807E98709EE /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKitTests" */ = {
+		73414AA42AD127C189FA5AB1C44C6CD7 /* Build configuration list for PBXNativeTarget "CupertinoJWT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24B20EF6138A537C4580FF9195B7CDE3 /* Debug */,
-				6BD807DF227218CD9806B30AB760BFC0 /* Release */,
+				A38A3457574BA0A478C8E73C339234CD /* Debug */,
+				003262F8737891D3A32441DEEF3F0561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE5C08BA887F5A8D9842BA4ABFF84625 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayer" */ = {
+		9ACD53F0E09E91849384B7E9108582B6 /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				767EAD7CAF74FFAB8DD5F8D86884697C /* Debug */,
-				4A120CCC59B2D3B702CA92F7990DC8B3 /* Release */,
+				4383E304DDF3834837EB6555771ECD0B /* Debug */,
+				F93AACB6711CAED35961FA93B70FA85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C089CA80A4951E4A29E2F7D1F1FB83BB /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+		A8CB1A20458C4ABBA012F1726D596700 /* Build configuration list for PBXNativeTarget "Pods-AppleMusicKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54220ACEA38179AE85303D94BDE030DA /* Debug */,
-				22EC2D82EA7D4C49433C4A03A2664CD0 /* Release */,
+				8D36572061FF0F47839251F247A7CEE4 /* Debug */,
+				DB019AFF6B0D8004C5F15B053C88FFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5EDA3420729E809AEA8953C43E42C02 /* Build configuration list for PBXNativeTarget "CupertinoJWT" */ = {
+		C53C9623D9063E42D8A054083147F808 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D556F5E98013F618DC14436E79A18558 /* Debug */,
-				F4F9C491139C298D10BA36A95B45708E /* Release */,
+				58B8593EE4C7D01F9038EE708186541A /* Debug */,
+				BE4D2F0194EE165BBB0905A58EC50BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE013FE0723EA536B306335E0145FA97 /* Build configuration list for PBXNativeTarget "Pods-KidzBopPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6DB7BFA284D850C67B686B37EAE729 /* Debug */,
+				4BAE71BD1398CC73863C55E04D80C77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

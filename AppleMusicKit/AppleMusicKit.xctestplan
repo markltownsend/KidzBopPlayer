@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "1C36D357-583B-4A9C-B1A7-5DB05E19A1E1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "AppleMusicKitTests\/testPerformanceExample()",
+        "AppleMusicKitTests\/testSearchWithSongType()"
+      ],
+      "target" : {
+        "containerPath" : "container:KidzBopPlayer.xcodeproj",
+        "identifier" : "4D2C1C61216A7B8A002C27ED",
+        "name" : "AppleMusicKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}

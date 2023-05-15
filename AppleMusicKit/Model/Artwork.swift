@@ -17,7 +17,7 @@ public struct Artwork: Decodable {
     var textColor3: String?
     var textColor4: String?
 
-    func url(with width: Int, height: Int) -> URL? {
+    public func url(with width: Int, height: Int) -> URL? {
         guard let url = url else { return nil }
         let urlString = url.replacingOccurrences(of: "{w}", with: "\(width)")
             .replacingOccurrences(of: "{h}", with: "\(height)")

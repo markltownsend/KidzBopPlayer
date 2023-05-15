@@ -19,6 +19,7 @@ final public class AppleMusicManager {
     static public let shared = AppleMusicManager()
 
     let allowedCharacterSet = CharacterSet(charactersIn: "!*'();:@&=+$,/?%#[] ").inverted
+
     private var developerToken: String?
     private var baseUrl = "https://api.music.apple.com/v1"
     private var storefront: String {
@@ -42,6 +43,12 @@ final public class AppleMusicManager {
         case songs = "songs"
     }
 
+    public enum Relationship: String {
+        case artists = "artists"
+        case albums = "albums"
+        case songs = "songs"
+    }
+
     private init() {}
             
     public func setDeveloperToken(_ token: String) {
@@ -59,12 +66,40 @@ final public class AppleMusicManager {
                 print("restricted")
             case .notDetermined:
                 print("not determined")
-
+            @unknown default:
+                print("unknown case")
             }
         }
     }
 
-    public func search(term: String, types:[SearchType]? = nil, completion: @escaping (Result<ResultsResponse?, AppleMusicKitError>) -> Void) {
+    public func searchSongs(term: String,
+                            relationships: [Relationship]? = nil,
+                            limit: Int? = 25,
+                            songs: [Song]? = [Song](),
+                            completion: @escaping (Result<[Song], AppleMusicKitError>) -> Void) {
+        search(term: term,
+               types:[.songs],
+               relationships: relationships,
+               limit: limit) { [weak self] (result) in
+            switch result {
+            case let .success(response):
+                let songs = self?.getSongs(fromResponse: response)
+                DispatchQueue.main.async {
+                    completion(.success(songs ?? []))
+                }
+            case let .failure(error):
+                DispatchQueue.main.async {
+                    completion(.failure(error))
+                }
+            }
+        }
+    }
+
+    public func search(term: String,
+                       types: [SearchType]? = nil,
+                       relationships: [Relationship]? = nil,
+                       limit: Int? = 25,
+                       completion: @escaping (Result<ResultsResponse?, AppleMusicKitError>) -> Void) {
         guard let url = URL(string: "\(fullBaseUrl)/search"),
             var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false) else {
                 completion(.failure(.badRequest()))
@@ -82,26 +117,46 @@ final public class AppleMusicManager {
             queryItems.append(URLQueryItem(name: "types", value: typeValue.joined(separator: ",")))
         }
 
+        if let relationships = relationships {
+            var relValue = [String]()
+            for rel in relationships {
+                relValue.append(rel.rawValue)
+            }
+            queryItems.append(URLQueryItem(name: "include", value: relValue.joined(separator: ",")))
+        }
+
+        if let limit = limit {
+            queryItems.append(URLQueryItem(name: "limit", value: "\(limit)"))
+        }
+        
         urlComponents.queryItems = queryItems
 
         guard let urlRequest = urlComponents.url,
             let request = appleMusicRequest(with: urlRequest) else {
-                completion(.failure(.badRequest()))
+                DispatchQueue.main.async {
+                    completion(.failure(.badResponse()))
+                }
             return
         }
+
+        print("request: \(String(describing: request.url?.absoluteString))")
 
         let session = URLSession.shared
         let dataTask = session.dataTask(with: request) { (data, response, error) in
             if let error = error {
                 print(error)
-                completion(.failure(.badResponse(error)))
+                DispatchQueue.main.async {
+                    completion(.failure(.badResponse(error)))
+                }
                 return
             }
 
             guard let httpResponse = response as? HTTPURLResponse,
                 (200...299).contains(httpResponse.statusCode) else {
                     print("Server error: \(String(describing: response))")
-                    completion(.failure(.badResponse(error)))
+                    DispatchQueue.main.async {
+                        completion(.failure(.badResponse(error)))
+                    }
                     return
             }
 
@@ -110,10 +165,14 @@ final public class AppleMusicManager {
                 let decoder = JSONDecoder()
                 let searchResults = try decoder.decode(SearchResults.self, from: data)
                 print(searchResults)
-                completion(.success(searchResults.results))
+                DispatchQueue.main.async {
+                    completion(.success(searchResults.results))
+                }
             } catch {
                 print(error)
-                completion(.failure(.badResponse(error)))
+                DispatchQueue.main.async {
+                    completion(.failure(.badResponse(error)))
+                }
                 return
             }
         }
@@ -130,4 +189,36 @@ fileprivate extension AppleMusicManager {
 
         return request
     }
+
+    func page<T: Decodable>(with url: String, urlRequest: URLRequest, limit:Int? = 25, completion: @escaping ([T]?) -> Void) {
+        guard let fullURL = URL(string: "\(baseUrl)\(url)") else { return }
+        let session = URLSession.shared
+        let dataTask = session.dataTask(with: fullURL) { (data, response, error) in
+            if let error = error {
+                print("Error paging: \(error)")
+                return
+            }
+            guard let data = data else { return }
+            do {
+                let decoder = JSONDecoder()
+                let songs = try decoder.decode([T].self, from: data)
+                
+            } catch {
+                print("Error paging: \(error)")
+                return
+            }
+        }
+        dataTask.resume()
+    }
+
+    func getSongs(fromResponse: ResultsResponse?) -> [Song] {
+        guard let response = fromResponse else { return [] }
+
+        if let songsResponse = response.songs {
+            return songsResponse.data
+        } else {
+            return []
+        }
+    }
 }
+

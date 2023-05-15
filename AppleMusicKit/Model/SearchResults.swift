@@ -12,6 +12,6 @@ struct SearchResults: Decodable {
 }
 
 public struct ResultsResponse: Decodable {
-    var artists: ArtistResponse?
-    var songs: SongResponse?
+    public var artists: ArtistResponse?
+    public var songs: SongResponse?
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		4D0924771F46B905007FFA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0924761F46B905007FFA2A /* Assets.xcassets */; };
 		4D09247A1F46B905007FFA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0924781F46B905007FFA2A /* LaunchScreen.storyboard */; };
 		4D0924851F46B905007FFA2A /* Kidz_Bop_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0924841F46B905007FFA2A /* Kidz_Bop_PlayerTests.swift */; };
+		4D1B384F2326F0A700EBEF0C /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4D1B384E2326F0A700EBEF0C /* URLImage */; };
 		4D2C1C63216A7B8A002C27ED /* AppleMusicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C1C5A216A7B8A002C27ED /* AppleMusicKit.framework */; };
 		4D2C1C6A216A7B8A002C27ED /* AppleMusicKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C1C69216A7B8A002C27ED /* AppleMusicKitTests.swift */; };
 		4D2C1C6C216A7B8A002C27ED /* AppleMusicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2C1C5C216A7B8A002C27ED /* AppleMusicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,16 +25,21 @@
 		4D58CF6822AAFA3D00D39891 /* ResponseRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58CF6722AAFA3D00D39891 /* ResponseRoot.swift */; };
 		4D58CF6A22AAFB0900D39891 /* MKResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58CF6922AAFB0900D39891 /* MKResource.swift */; };
 		4D58CF6C22AAFB7800D39891 /* MKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58CF6B22AAFB7800D39891 /* MKError.swift */; };
+		4DC8678A231783B000B1C705 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC86789231783B000B1C705 /* CloudKit.framework */; };
 		4DE2CD242170615000F16D4F /* AppleMusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2CD232170615000F16D4F /* AppleMusicManager.swift */; };
 		4DE422DC22AB35F3005E0847 /* AppleTokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422DB22AB35F3005E0847 /* AppleTokenGenerator.swift */; };
 		4DE422DE22AB36DE005E0847 /* AppleMusicManager+AppleTokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422DD22AB36DE005E0847 /* AppleMusicManager+AppleTokenGenerator.swift */; };
 		4DE422E022AB3785005E0847 /* AppleMusicManager+AppleTokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422DF22AB3785005E0847 /* AppleMusicManager+AppleTokenGenerator.swift */; };
 		4DE422E222AB7AE5005E0847 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422E122AB7AE5005E0847 /* SearchResponse.swift */; };
 		4DE422E422AB7C1A005E0847 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422E322AB7C1A005E0847 /* SearchResults.swift */; };
-		4DE422E622AB7C5C005E0847 /* ArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422E522AB7C5C005E0847 /* ArtistResponse.swift */; };
-		4DE422E822AB7EB5005E0847 /* AlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422E722AB7EB5005E0847 /* AlbumResponse.swift */; };
-		4DF45DF922ADE23D007B25E5 /* SongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF45DF822ADE23D007B25E5 /* SongResponse.swift */; };
+		4DE422E622AB7C5C005E0847 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422E522AB7C5C005E0847 /* Artist.swift */; };
+		4DE422E822AB7EB5005E0847 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE422E722AB7EB5005E0847 /* Album.swift */; };
+		4DF45DF922ADE23D007B25E5 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF45DF822ADE23D007B25E5 /* Song.swift */; };
 		4DF45DFB22AE1924007B25E5 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF45DFA22AE1924007B25E5 /* Artwork.swift */; };
+		4DFE2BC1231F201B008B7475 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE2BC0231F201B008B7475 /* SongCell.swift */; };
+		4DFE2BC5231F2440008B7475 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE2BC4231F2440008B7475 /* SongViewModel.swift */; };
+		4DFE2C03231F2668008B7475 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE2C02231F2668008B7475 /* SceneDelegate.swift */; };
+		4DFE2C05231F2696008B7475 /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE2C04231F2696008B7475 /* SongListView.swift */; };
 		5EF05776A96550458F9C6F1D /* libPods-KidzBopPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8C922C4287CEE8B168F273 /* libPods-KidzBopPlayer.a */; };
 		6864AAA7912B074AFC8F9967 /* libPods-AppleMusicKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE4A563E39A84081363FBF4 /* libPods-AppleMusicKit.a */; };
 		B250D11A2A920E4322E44B24 /* libPods-AppleMusicKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D96B984CB545CD7DE5EDD /* libPods-AppleMusicKitTests.a */; };
@@ -110,16 +116,23 @@
 		4D58CF6722AAFA3D00D39891 /* ResponseRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRoot.swift; sourceTree = "<group>"; };
 		4D58CF6922AAFB0900D39891 /* MKResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKResource.swift; sourceTree = "<group>"; };
 		4D58CF6B22AAFB7800D39891 /* MKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKError.swift; sourceTree = "<group>"; };
+		4D7F6D0D234B0B8100927972 /* AppleMusicKit.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleMusicKit.xctestplan; path = AppleMusicKit/AppleMusicKit.xctestplan; sourceTree = SOURCE_ROOT; };
+		4DC86788231783AB00B1C705 /* KidzBopPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KidzBopPlayer.entitlements; sourceTree = "<group>"; };
+		4DC86789231783B000B1C705 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		4DE2CD232170615000F16D4F /* AppleMusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicManager.swift; sourceTree = "<group>"; };
 		4DE422DB22AB35F3005E0847 /* AppleTokenGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTokenGenerator.swift; sourceTree = "<group>"; };
 		4DE422DD22AB36DE005E0847 /* AppleMusicManager+AppleTokenGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppleMusicManager+AppleTokenGenerator.swift"; sourceTree = "<group>"; };
 		4DE422DF22AB3785005E0847 /* AppleMusicManager+AppleTokenGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppleMusicManager+AppleTokenGenerator.swift"; sourceTree = "<group>"; };
 		4DE422E122AB7AE5005E0847 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		4DE422E322AB7C1A005E0847 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
-		4DE422E522AB7C5C005E0847 /* ArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponse.swift; sourceTree = "<group>"; };
-		4DE422E722AB7EB5005E0847 /* AlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponse.swift; sourceTree = "<group>"; };
-		4DF45DF822ADE23D007B25E5 /* SongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResponse.swift; sourceTree = "<group>"; };
+		4DE422E522AB7C5C005E0847 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		4DE422E722AB7EB5005E0847 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		4DF45DF822ADE23D007B25E5 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		4DF45DFA22AE1924007B25E5 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		4DFE2BC0231F201B008B7475 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		4DFE2BC4231F2440008B7475 /* SongViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		4DFE2C02231F2668008B7475 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DFE2C04231F2696008B7475 /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
 		5DC9861B58F81216A01C4B7A /* Pods-KidzBopPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidzBopPlayer.debug.xcconfig"; path = "Target Support Files/Pods-KidzBopPlayer/Pods-KidzBopPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		740C376733A999136BD15B3D /* Pods-AppleMusicKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicKit.release.xcconfig"; path = "Target Support Files/Pods-AppleMusicKit/Pods-AppleMusicKit.release.xcconfig"; sourceTree = "<group>"; };
 		9386771BBC4038D5D680AA56 /* Pods-AppleMusicKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicKitTests.release.xcconfig"; path = "Target Support Files/Pods-AppleMusicKitTests/Pods-AppleMusicKitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +148,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC8678A231783B000B1C705 /* CloudKit.framework in Frameworks */,
 				4D2C1C6F216A7B8A002C27ED /* AppleMusicKit.framework in Frameworks */,
+				4D1B384F2326F0A700EBEF0C /* URLImage in Frameworks */,
 				5EF05776A96550458F9C6F1D /* libPods-KidzBopPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,8 +210,11 @@
 		4D09246B1F46B905007FFA2A /* KidzBopPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				4DFE2BC4231F2440008B7475 /* SongViewModel.swift */,
+				4DC86788231783AB00B1C705 /* KidzBopPlayer.entitlements */,
 				4D5558AC218F6062001D350A /* GoogleService-Info.plist */,
 				4D09246C1F46B905007FFA2A /* AppDelegate.swift */,
+				4DFE2C02231F2668008B7475 /* SceneDelegate.swift */,
 				4D09246E1F46B905007FFA2A /* MainViewController.swift */,
 				4D0924701F46B905007FFA2A /* Main.storyboard */,
 				4D0924761F46B905007FFA2A /* Assets.xcassets */,
@@ -204,6 +222,8 @@
 				4D09247B1F46B905007FFA2A /* Info.plist */,
 				4D0924731F46B905007FFA2A /* Kidz_Bop_Player.xcdatamodeld */,
 				4DE422DD22AB36DE005E0847 /* AppleMusicManager+AppleTokenGenerator.swift */,
+				4DFE2BC0231F201B008B7475 /* SongCell.swift */,
+				4DFE2C04231F2696008B7475 /* SongListView.swift */,
 			);
 			path = KidzBopPlayer;
 			sourceTree = "<group>";
@@ -232,6 +252,7 @@
 		4D2C1C68216A7B8A002C27ED /* AppleMusicKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				4D7F6D0D234B0B8100927972 /* AppleMusicKit.xctestplan */,
 				4D2C1C69216A7B8A002C27ED /* AppleMusicKitTests.swift */,
 				4D2C1C6B216A7B8A002C27ED /* Info.plist */,
 				4DE422DF22AB3785005E0847 /* AppleMusicManager+AppleTokenGenerator.swift */,
@@ -242,15 +263,15 @@
 		4D58CF6622AAFA0B00D39891 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4D58CF6722AAFA3D00D39891 /* ResponseRoot.swift */,
-				4D58CF6922AAFB0900D39891 /* MKResource.swift */,
+				4DE422E722AB7EB5005E0847 /* Album.swift */,
+				4DE422E522AB7C5C005E0847 /* Artist.swift */,
+				4DF45DFA22AE1924007B25E5 /* Artwork.swift */,
 				4D58CF6B22AAFB7800D39891 /* MKError.swift */,
+				4D58CF6922AAFB0900D39891 /* MKResource.swift */,
+				4D58CF6722AAFA3D00D39891 /* ResponseRoot.swift */,
 				4DE422E122AB7AE5005E0847 /* SearchResponse.swift */,
 				4DE422E322AB7C1A005E0847 /* SearchResults.swift */,
-				4DE422E522AB7C5C005E0847 /* ArtistResponse.swift */,
-				4DE422E722AB7EB5005E0847 /* AlbumResponse.swift */,
-				4DF45DF822ADE23D007B25E5 /* SongResponse.swift */,
-				4DF45DFA22AE1924007B25E5 /* Artwork.swift */,
+				4DF45DF822ADE23D007B25E5 /* Song.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -258,6 +279,7 @@
 		82C551825B675BDCC664F4DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DC86789231783B000B1C705 /* CloudKit.framework */,
 				FDE4A563E39A84081363FBF4 /* libPods-AppleMusicKit.a */,
 				432D96B984CB545CD7DE5EDD /* libPods-AppleMusicKitTests.a */,
 				FE8C922C4287CEE8B168F273 /* libPods-KidzBopPlayer.a */,
@@ -312,6 +334,9 @@
 				4D2C1C6E216A7B8A002C27ED /* PBXTargetDependency */,
 			);
 			name = KidzBopPlayer;
+			packageProductDependencies = (
+				4D1B384E2326F0A700EBEF0C /* URLImage */,
+			);
 			productName = "Kidz Bop Player";
 			productReference = 4D0924691F46B905007FFA2A /* KidzBopPlayer.app */;
 			productType = "com.apple.product-type.application";
@@ -415,6 +440,9 @@
 				Base,
 			);
 			mainGroup = 4D0924601F46B905007FFA2A;
+			packageReferences = (
+				4D1B384D2326F0A700EBEF0C /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 4D09246A1F46B905007FFA2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -595,8 +623,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D09246F1F46B905007FFA2A /* MainViewController.swift in Sources */,
+				4DFE2C03231F2668008B7475 /* SceneDelegate.swift in Sources */,
+				4DFE2BC5231F2440008B7475 /* SongViewModel.swift in Sources */,
+				4DFE2C05231F2696008B7475 /* SongListView.swift in Sources */,
 				4DE422DE22AB36DE005E0847 /* AppleMusicManager+AppleTokenGenerator.swift in Sources */,
 				4D0924751F46B905007FFA2A /* Kidz_Bop_Player.xcdatamodeld in Sources */,
+				4DFE2BC1231F201B008B7475 /* SongCell.swift in Sources */,
 				4D09246D1F46B905007FFA2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,12 +648,12 @@
 				4D58CF6A22AAFB0900D39891 /* MKResource.swift in Sources */,
 				4D58CF6822AAFA3D00D39891 /* ResponseRoot.swift in Sources */,
 				4DE422E222AB7AE5005E0847 /* SearchResponse.swift in Sources */,
-				4DF45DF922ADE23D007B25E5 /* SongResponse.swift in Sources */,
+				4DF45DF922ADE23D007B25E5 /* Song.swift in Sources */,
 				4DE422DC22AB35F3005E0847 /* AppleTokenGenerator.swift in Sources */,
 				4DE422E422AB7C1A005E0847 /* SearchResults.swift in Sources */,
-				4DE422E622AB7C5C005E0847 /* ArtistResponse.swift in Sources */,
+				4DE422E622AB7C5C005E0847 /* Artist.swift in Sources */,
 				4D58CF6C22AAFB7800D39891 /* MKError.swift in Sources */,
-				4DE422E822AB7EB5005E0847 /* AlbumResponse.swift in Sources */,
+				4DE422E822AB7EB5005E0847 /* Album.swift in Sources */,
 				4DF45DFB22AE1924007B25E5 /* Artwork.swift in Sources */,
 				4DE2CD242170615000F16D4F /* AppleMusicManager.swift in Sources */,
 			);
@@ -731,12 +763,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -784,10 +817,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -797,13 +832,17 @@
 			baseConfigurationReference = 5DC9861B58F81216A01C4B7A /* Pods-KidzBopPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KidzBopPlayer/KidzBopPlayer.entitlements;
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = "$(SRCROOT)/KidzBopPlayer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.townsend.Kidz-Bop-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -813,13 +852,17 @@
 			baseConfigurationReference = 9B6FB5EE65E1E33FB3ACA56E /* Pods-KidzBopPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KidzBopPlayer/KidzBopPlayer.entitlements;
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = "$(SRCROOT)/KidzBopPlayer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.townsend.Kidz-Bop-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -831,10 +874,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = KidzBopPlayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.townsend.Kidz-Bop-PlayerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidzBopPlayer.app/KidzBopPlayer";
 			};
@@ -847,10 +894,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = KidzBopPlayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.townsend.Kidz-Bop-PlayerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidzBopPlayer.app/KidzBopPlayer";
 			};
@@ -875,14 +926,18 @@
 				INFOPLIST_FILE = AppleMusicKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.townsend.AppleMusicKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -908,12 +963,16 @@
 				INFOPLIST_FILE = AppleMusicKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.townsend.AppleMusicKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -932,12 +991,16 @@
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = AppleMusicKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.townsend.AppleMusicKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidzBopPlayer.app/KidzBopPlayer";
 			};
@@ -955,11 +1018,15 @@
 				DEVELOPMENT_TEAM = 55AT6EYVPW;
 				INFOPLIST_FILE = AppleMusicKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.townsend.AppleMusicKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidzBopPlayer.app/KidzBopPlayer";
 			};
@@ -1014,6 +1081,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D1B384D2326F0A700EBEF0C /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D1B384E2326F0A700EBEF0C /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D1B384D2326F0A700EBEF0C /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4D0924731F46B905007FFA2A /* Kidz_Bop_Player.xcdatamodeld */ = {
