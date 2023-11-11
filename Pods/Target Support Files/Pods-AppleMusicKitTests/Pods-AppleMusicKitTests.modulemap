@@ -1,6 +1,0 @@
-module Pods_AppleMusicKitTests {
-  umbrella header "Pods-AppleMusicKitTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

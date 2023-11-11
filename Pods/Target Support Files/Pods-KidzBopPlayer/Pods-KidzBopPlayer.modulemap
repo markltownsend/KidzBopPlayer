@@ -1,6 +1,0 @@
-module Pods_KidzBopPlayer {
-  umbrella header "Pods-KidzBopPlayer-umbrella.h"
-
-  export *
-  module * { export * }
-}
